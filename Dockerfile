@@ -12,4 +12,4 @@ COPY . /app
 EXPOSE 80
 
 ENV NODE_ENV production
-ENTRYPOINT ["node", "-r", "esm", "./bin/server", "--port", "80"]
+CMD ["node", "-r", "esm", "./bin/server", "--port", "80"]
