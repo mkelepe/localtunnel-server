@@ -9,8 +9,6 @@ RUN yarn install --production && yarn cache clean
 
 COPY . /app
 
-EXPOSE 80
-
 ENV NODE_ENV production
 ENV PORT 80
 EXPOSE 80
